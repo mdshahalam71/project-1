@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+     background-image: linear-gradient(rgb(142, 142, 233),rgb(55, 55, 144),rgba(8, 8, 213, 0.622));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    margin-right: 50px;
+    display: flex;
+}
+.navbar > li{
+    list-style: none;
+    margin: 0 10px;
+    margin-left: -10px;
+    padding: 10px 0;
+    border-right: 2px solid white;
+}
+ .navbar > li:first-child{
+    border-left: 2px solid white;
+ }
+.navbar > li:hover{
+    background-color: brown;
+}
+.navbar > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    position: sticky;
+}
+.logo{
+    margin-left: 50px;
+}
+.logo > h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+/* dropdown manu stats here */
+.dropdown{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 10px;
+    background-color: brown;
+    width: 220px;
+    text-align: center;
+    transition: 1s;
+}
+.dropdown > li{
+    list-style: none;
+     padding: 10px;
+    border-bottom: 2px solid white;
+}
+.dropdown > li:first-child{
+    border-top: 2px solid white;
+}
+.dropdown > li:hover{
+    background-color: blue;
+}
+.dropdown > li > a{
+    text-decoration: none;
+    color: white;   
+}
+.navigation > ul > li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+/* hereo section state here */
+.hero{
+    width: 100%;
+    height: 850px;
+    text-align: center;
+     background-image: linear-gradient(rgb(152, 234, 193),rgb(71, 124, 98));
+}
+.textname{
+    padding-top: 300px;
+    margin: 0 auto;
+    width: 500px;
+}
+.textname > h1{
+    color:brown;
+    text-transform: uppercase;
+} 
+.textname > i{
+    margin: 0 20px;
+    padding: 20px 0;
+    font-size: 60px;
+}
+.textname > p{
+    font-size: 20px;
+    color: brown;
+}
+.textname > button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px darkblue;
+}
+/* main section style here  */
+.fastsection{
+    background-color: aqua;
+}
+.section{
+    display: flex;
+    width: 1600px;
+    justify-content: space-between;
+     margin: 200px auto;
+     padding: 50px 0;
+}
+.section .manu{
+    width: 400px;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: darkcyan; 
+    border-radius: 10px; 
+    box-shadow: 10px 10px 60px coral; 
+    transition: 2s;
+}
+.manu:hover{
+    background-color: darkorange;
+    box-shadow: 10px 10px 70px darkblue;
+    color: blue;
+    width: 430px;
+}
+.manu > i{
+    font-size: 50px;
+}
+.manu > h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
