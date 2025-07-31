@@ -105,15 +105,35 @@
     box-shadow: 5px 5px 10px darkblue;
 }
 /* main section style here  */
+.header-section{
+    text-align: center;
+    font-size: 3rem;
+     margin: 50px;
+     padding-top: 90px;
+     border-bottom: 1px solid rgb(71, 124, 98);
+     width: 500px;
+     margin: auto;
+     transition: 1s;
+}
+.header-section:hover{
+    text-shadow: 3px 3px 5px red;
+    font-size: 3.5rem;
+}
+.font{
+    transition: 1s;
+}
+.font:hover{
+    color: yellow;
+}
 .fastsection{
-    background-color: aqua;
+    background-color: red;
 }
 .section{
     display: flex;
     width: 1600px;
     justify-content: space-between;
      margin: 200px auto;
-     padding: 50px 0;
+     padding: 40px 0;
 }
 .section .manu{
     width: 400px;
